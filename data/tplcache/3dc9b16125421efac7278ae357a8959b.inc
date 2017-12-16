@@ -1,0 +1,1 @@
+<li data-background="/templets/default/images/banner.jpg"></li>

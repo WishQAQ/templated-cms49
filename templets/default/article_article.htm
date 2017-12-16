@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+<link href="/templets/default/images/indexstyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<!--top--> 
+{dede:include filename="head.htm"/} 
+
+<!--endtop-->
+<div class="subBanner"></div>
+<div class="contain">
+<div class="Container">
+<div class="leftCon">
+  <div class="leftConTitle"> <img src="/templets/default/images/decoPic.jpg">
+    <p>当前位置：{dede:field name='typename'/}</p>
+  </div>
+  <div class="subGCBox">
+    <div class="firstGC"> <img src="{dede:field.litpic /}" width="218" height="143">
+      <div class="firstRightText">
+        <h1>{dede:field.title/}</h1>
+        <ul>
+        </ul>
+      </div>
+    </div>
+    <div class="secondGC">
+      <div class="secondGCTitle">
+        <h1>{dede:field.title/}</h1>
+      </div>
+      <p> {dede:field.body/} </p>
+    </div>
+  </div>
+</div>
+{dede:include filename="left.htm"/}
+{dede:include filename="foot.htm"/}
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+<head>
+<!--
+                       (0 0)
+   +-------------oOO----(_)----------------+
+   |           Powered By 织梦猫           |
+   |            www.dedemao.com            |
+   |        E-mail:admin@dedemao.com       |
+   +--------------------------oOO----------+
+                      |__|__|
+                       || ||
+                      ooO Ooo
+-->
+<meta charset="utf-8">
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link href="/templets/default/images/indexstyle.css" rel="stylesheet" type="text/css">
+<link href="/templets/default/images/flickerplate.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/templets/default/images/jquery.min.js"></script>
+<script src="/templets/default/images/flickerplate.min.js" type="text/javascript"></script>
+<script src="/templets/default/images/zzsc.js" type="text/javascript"></script>
+<script src="/templets/default/images/jquery.SuperSlide.js" type="text/javascript"></script>
+<script>
+    $(document).ready(function(){
+        $('.flicker-example').flicker();
+    });
+</script>
+</head>
+
+<body>
+<!--top--> 
+{dede:include filename="head.htm"/}
+<div class="flicker-example" data-block-text="false">
+  <ul>
+    {dede:arclist row='3' typeid='20'}
+    <li data-background="/templets/default/images/banner.jpg"></li>
+    {/dede:arclist}
+  </ul>
+</div>
+<!--endtop-->
+<div class="main"> 
+  
+  <!--产品中心-->
+  <div class="goodsCenter">
+    <div class="leftGC"> <img src="/templets/default/images/gcTitle.jpg">
+      <dl>
+        <dd>文啸轩宣纸类</dd>
+        {dede:channel typeid='1' type='son' row='5'}
+        <dt><a href="[field:typeurl/]">[field:typename/]</a></dt>
+        {/dede:channel}
+        <dd>文啸轩毛笔</dd>
+        {dede:channel typeid='2' type='son' row='5'}
+        <dt><a href="[field:typeurl/]">[field:typename/]</a></dt>
+        {/dede:channel}
+        <dd>文啸轩文房四宝</dd>
+        {dede:channel typeid='3' type='son' row='5'}
+        <dt><a href="[field:typeurl/]">[field:typename/]</a></dt>
+        {/dede:channel}
+      </dl>
+    </div>
+    <div class="rightGC">
+      <div class="rightGCTitle"> <img src="/templets/default/images/decra01.jpg">
+        <h1>产品展示</h1>
+        <a href="/a/xianxuanzhi/">更多>></a> </div>
+      <div class="rightGCBody"> {dede:arclist row='8' typeid='1' titlelen='20'}
+        <div class="GCPic"><a href="[field:arcurl/]"> <img src="[field:picname/]" width="165" height="155">
+          <p>[field:title/]</p>
+          </a> </div>
+        {/dede:arclist} </div>
+    </div>
+  </div>
+  <!--end产品中心-->
+  <div class="advantage"> <img src="/templets/default/images/advantage.jpg"> </div>
+  <!--公司简介-->
+  <div class="INtro">
+    <div class="INtroTitle"> <img src="/templets/default/images/decra01.jpg">
+      <h1>走进文啸轩</h1>
+      <a href="/a/wenxiaoxuanjianjie/">更多>></a> </div>
+    <div class="INtroBody"> <img src="/templets/default/images/pic01.jpg">
+      <div class="INtroBox"> {dede:myad name='gs'/}<a href="/a/wenxiaoxuanjianjie/">>> 查看更多</a>
+        </p>
+      </div>
+    </div>
+    <!--end公司简介--> 
+    <!--文化起源-->
+    <div class="source">
+      <div class="sourceTitle"> <img src="/templets/default/images/decra01.jpg">
+        <h1>文化起源</h1>
+        <a href="/a/wenhuaqiyuan/">更多>></a> </div>
+      <div class="sourceBody">
+        <div class="sourceLine01"> {dede:arclist typeid='18' row=4 titlelen=30 noflag='h'}
+          <div class="leftSour"><a href="[field:arcurl/]"> <img src="[field:litpic/]" width="202" height="138">
+            <div class="sourceText">
+              <h1>[field:title/]</h1>
+              <p> [field:description function="cn_substr(@me,150)"/]...</p>
+            </div>
+            </a> </div>
+          {/dede:arclist} </div>
+      </div>
+    </div>
+    <!--end文化起源--> 
+  </div>
+</div>
+<div class="newsList">
+  <div class="newsListBox">
+    <div class="hp-tab-newprd">
+      <ul class="j-sw-nav">
+        <li class="newprd-s1"><a>文啸轩资讯</a></li>
+        <li class="newprd-s7 on"><a>行业动态</a></li>
+        <a href="/a/xinwendongtai/" class="MoreBtn">更多>></a>
+      </ul>
+      <div class="newprd-clip">
+        <div class="tempWrap" style="overflow:hidden; position:relative; width:630px">
+          <div class="j-sw-c">
+            <div class="newsShow">
+              <div class="firstLine"> <img src="/templets/default/images/pic06.jpg">
+                <div class="firstText">
+                  <h1>文啸轩资讯详情</h1>
+                  <a href="/a/xinwendongtai/">
+                  <input type="button" value="查看更多>>">
+                  </a> </div>
+              </div>
+              <div class="secondLine">
+                <ul class="ul01">
+                  {dede:arclist typeid='15' row=5 titlelen=30}
+                  <li><a href="[field:arcurl/]">[field:title/]...</a></li>
+                  {/dede:arclist}
+                </ul>
+                <ul>
+                  {dede:arclist typeid='22' row=5 titlelen=30}
+                  <li><a href="[field:arcurl/]">[field:title/]...</a></li>
+                  {/dede:arclist}
+                </ul>
+              </div>
+            </div>
+            <div class="newsShow">
+              <div class="firstLine"> <img src="/templets/default/images/pic06.jpg">
+                <div class="firstText">
+                  <p>行业资讯详情...</p>
+                  <a href="/a/xinwendongtai/xingyedongtai/">
+                  <input type="button" value="查看更多>>">
+                  </a> </div>
+              </div>
+              <div class="secondLine">
+                <ul class="ul01">
+                  {dede:arclist typeid='16' row=5 titlelen=30}
+                  <li><a href="[field:arcurl/]">[field:title/]...</a></li>
+                  {/dede:arclist}
+                </ul>
+                <ul>
+                  {dede:arclist typeid='23' row=5 titlelen=30}
+                  <li><a href="[field:arcurl/]">[field:title/]...</a></li>
+                  {/dede:arclist}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+jQuery(".hp-tab-newprd").slide({ titCell:".j-sw-nav li",mainCell:".j-sw-c",effect:"left",easing:"easeInOutSine",delayTime:800 });
+</script>
+    <div class="question">
+      <div class="quesTitle"> <img src="/templets/default/images/decra01.jpg">
+        <h1>常见问题</h1>
+        <a href="/a/xinwendongtai/changjianwenti/">更多>></a> </div>
+      <div class="quesBody">
+        <table align=center border="0" cellpadding="0" style="border-collapse: collapse">
+          <tr>
+            <td height=5></td>
+          </tr>
+          <tr>
+            <td><div id=design style="OVERFLOW: hidden; WIDTH: 300px; HEIGHT:283px">
+                <div id=design1 style="OVERFLOW: hidden">
+                  <TABLE cellSpacing=0 cellPadding=0 width=300 align=center border=0>
+                    {dede:arclist typeid='17' titlelen='30' row='4' }
+                    <tr class="ask">
+                      <td align=left width="300" height="30"><a class=b2 href="[field:arcurl/]" class="tag_title_link">[field:title/]..</a></td>
+                    </tr>
+                    <tr class="answer">
+                      <td align=left width="300" height="30"><a class=b2 href="[field:arcurl/]" class="tag_title_link">[field:description function="cn_substr(@me,150)"/]...</a></td>
+                    </tr>
+                    {/dede:arclist}
+                  </table>
+                </div>
+                <div id=design2> </div>
+              </div>
+              <script>
+        var speed=65
+        design2.innerHTML=design1.innerHTML
+        function Marquee2()
+        {
+        if(design2.offsetTop-design.scrollTop<=0)
+        design.scrollTop-=design1.offsetHeight
+        else
+        {
+        design.scrollTop++
+        }
+        }
+        var MyMar2=setInterval(Marquee2,speed)
+        design.onmouseover=function()
+        {
+        clearInterval(MyMar2)
+        }
+        design.onmouseout=function()
+        {
+        MyMar2=setInterval(Marquee2,speed)
+        }
+        </script> 
+              <script language="javascript">
+        function showchargemenu(m1)
+        {
+        document.getElementById("test").innerHTML = m1.innerHTML; 
+        }
+        </script></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+{dede:include filename="foot.htm"/}
+</body>
+</html>

@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background-color:#f6f2e8;}
+*{ margin:0; padding:0; font-family:"微软雅黑"; font-size:14px; color:#4b4b4b;}
+img{ border:0;} 
+a{ text-decoration:none; color:#4b4b4b;}
+li{ list-style:none;} 
+.top{ height:135px; background-image:url(/templets/default/images/topBg.jpg);}
+.topBox,.navBox{ width:1000px; margin:0 auto; overflow:hidden;}
+.logo{ float:left; margin-top:26px;}
+.telePhone{ float:right; margin-top:48px;}
+.nav{ height:50px; background-image:url(/templets/default/images/navBg.jpg);}
+.navBox a{ float:left; display:block; color:white; font-size:16px; width:125px; text-align:center; line-height:50px;}
+.navBox a:hover{ color:#c40000;}
+
+.main{ width:1000px; margin:25px auto;}
+.searchLine{ overflow:hidden;}
+.searchBox{ float:left; width:320px; height:30px; border:1px solid #ccc;}
+.hotWords{ float:left; margin-left:50px; line-height:30px;}
+.hotWords a{ color:#6e6e6e;}
+.searchBox .btn{ width:60px; height:30px; background-color:#b70000; cursor:pointer; border:0; float:right; color:white; font-size:16px;}
+.searchBox .inputBox{ width:250px; height:28px; float:left; border:0;}
+
+.goodsCenter{ overflow:hidden; margin:20px 0 20px 0;}
+.leftGC{ float:left; width:260px;}
+.leftGC dl{ margin-left:34px;}
+.leftGC dl dd,.leftGC dl dt a{ font-family:"楷体"; font-weight:bold;}
+.leftGC dl dd{ font-size:24px; color:#c40000; line-height:50px;}
+.leftGC dl dt a{ font-size:20px; line-height:30px;}
+.rightGC{ float:right; width:735px;}
+.rightGCTitle{ overflow:hidden; height:48px; border-bottom:2px solid black;}
+.rightGCTitle img,.rightGCTitle h1{ float:left;}
+.rightGCTitle img{ margin-left:20px; margin-top:20px;}
+.rightGCTitle a{ float:right;margin-top:22px; font-size:12px;}
+.rightGCTitle h1{ font-size:16px; font-weight:normal; color:#4b4b4b; margin-left:14px; margin-top:18px;}
+.rightGCBody,.INtroBody{ overflow:hidden;}
+.GCPic{ float:left; width:165px; margin-left:13px; margin-top:20px;}
+.GCPic img{ display:block; width:165px; height:155px;}
+.GCPic p{ text-align:center; line-height:40px;}
+.INtroTitle,.sourceTitle,.quesTitle{ overflow:hidden;height:48px; border-bottom:2px solid black;}
+.INtroTitle img,.INtroTitle h1,.sourceTitle img,.sourceTitle h1,.quesTitle img,.quesTitle h1{ float:left;}
+.INtroTitle img,.sourceTitle img,.quesTitle img{ margin-left:20px; margin-top:20px;}
+.INtroTitle a,.sourceTitle a,.quesTitle a{ float:right;margin-top:22px; font-size:12px;}
+.INtroTitle h1,.sourceTitle h1,.quesTitle h1{ font-size:16px; font-weight:normal; color:#4b4b4b; margin-left:14px; margin-top:18px;}
+.INtroBody{ margin-top:20px;}
+.INtroBody img{ display:block; float:left; width:260px; height:180px;}
+.INtroBox{ float:left; width:700px; margin-left:30px;}
+.INtroBox h1{ font-size:16px;}
+.INtroBox p{ font-size:14px; text-indent:2em; line-height:24px; margin-top:10px;}
+.INtroBox p a{ color:#b90000; float:right;}
+
+.source{ margin:30px 0 20px 0;}
+.sourceLine01{ overflow:hidden; margin-top:20px;}
+.leftSour{ float:left; width:480px;}
+.leftSour img{ display:block; float:left; border:1px solid #ccc; width:200px;height:136px;}
+.sourceText{ float:left; margin-left:15px; width:260px;}
+.sourceText h1{ font-size:16px;}
+.sourceText p{line-height:24px; margin-top:10px;}
+.rightSour{ float:right; width:480px;}
+.rightSour img{ display:block; float:left; border:1px solid #ccc; width:200px;height:136px;}
+.newsList{ background:url(/templets/default/images/mountain.png) no-repeat center 0;}
+.newsListBox{ width:1000px; margin:0 auto; overflow:hidden; height:360px; padding-bottom:50px;}
+.xuanKa{ float:left; width:630px;}
+.question{ float:right; width:318px;}
+.quesBody{ margin-top:15px;}
+.quesBody a{ margin-left:30px;}
+.ask{ background-image:url(/templets/default/images/ask.jpg); background-repeat:no-repeat; background-position:left center;}
+.answer{ background-image:url(/templets/default/images/answer.jpg); background-repeat:no-repeat; background-position:left top;}
+.answer td{ border-bottom:1px dotted #ccc; padding-bottom:10px;}
+
+.MoreBtn{ float:right;font-size:12px;}
+.hp-tab-newprd {
+	width:630px;
+	float:left;
+	position: relative;
+	height:360px;
+	margin-top:20px;
+}
+.hp-tab-newprd .j-sw-nav {
+	padding-top: 1px;
+	width: 630px;
+	height: 26px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative
+}
+.hp-tab-newprd .j-sw-nav li {
+	float: left;
+	margin-right: -20px
+}
+.hp-tab-newprd .j-sw-nav li a {
+	position: relative;
+	display: block;
+	width: 100px;
+	height: 26px;
+	line-height: 1.91;
+	padding: 0 20px;
+	text-align: center;
+	text-transform: uppercase;
+	background:url(/templets/default/images/bg-tag-off.png) no-repeat 0 0;
+	color: #fefefe;
+	font-weight: bold;
+	word-wrap: break-word;
+	overflow: hidden;
+	outline: 0;
+	cursor:pointer;
+}
+.newprd-s1, .newprd-s1 a {
+	z-index: 20
+}
+.newprd-s7, .newprd-s7 a {
+	z-index: 14
+}
+.hp-tab-newprd .j-sw-nav .on {
+	position: relative;
+	z-index: 99
+}
+.hp-tab-newprd .j-sw-nav li a:hover, .hp-tab-newprd .j-sw-nav .on a {
+	background-image:url(/templets/default/images/bg-tag-on.png);
+	z-index: 99;
+	color: #fefefe;
+	text-decoration: none;
+	cursor: pointer;
+}
+.j-sw-c .firstLine{ overflow:hidden; margin-top:20px;}
+.j-sw-c .firstLine img{ float:left; display:block; width:198px; height:136px; border:1px solid #ccc;}
+.j-sw-c .firstLine .firstText{ float:right; width:400px;}
+.j-sw-c .firstLine .firstText h1{ font-size:16px; font-weight:normal;}
+.j-sw-c .firstLine .firstText p{ font-size:14px; line-height:24px; margin-top:10px;}
+.j-sw-c .firstLine .firstText input{ width:82px; height:30px; color:white; background-color:#c40000; cursor:pointer; border:none;}
+.j-sw-c .secondLine{ margin-top:10px;}
+.j-sw-c .secondLine ul{ width:300px; float:left;}
+.j-sw-c .secondLine .ul01{ margin-right:25px;}
+.j-sw-c .secondLine li{ background-image:url(/templets/default/images/dot.png); background-repeat:no-repeat; background-position:left center; margin-top:10px;}
+.j-sw-c .secondLine li a{ margin-left:15px;}
+
+.botmBox{width:1000px; margin:0 auto; overflow:hidden;}
+.botmBox .logo{ float:left; margin:20px 30px 30px 0;}
+.botmText{ width:500px; float:left; margin-top:30px;}
+.lineList{ overflow:hidden; margin-top:10px;}
+.lineList p{ float:left; margin-right:30px;}
+.botmText h2{ font-family:"微软雅黑"; font-weight:normal; margin-top:10px;}
+
+
+
+
+
+
+.subBanner{ height:245px; background:url(/templets/default/images/subBanner.png) no-repeat center 0;}
+.contain{ background:url(/templets/default/images/subMountain.png) no-repeat center 0; padding-bottom:30px;}
+.Container{ width:1000px; margin:20px auto; overflow:hidden;}
+.leftCon{ float:left; width:723px;}
+.leftConTitle{ height:35px; border-bottom:2px solid black; overflow:hidden}
+.leftConTitle img{ float:left;}
+.leftConTitle p{ float:left; margin-left:20px;}
+.leftConBody{ margin-top:25px; border:2px solid #ccc;}
+.leftConNag{ height:50px; background-image:url(/templets/default/images/underLine.jpg); background-repeat:no-repeat; background-position:bottom left;}
+.leftConNag h1{ font-family:"微软雅黑"; font-size:16px; font-weight:normal; line-height:50px; margin-left:38px;}
+.leftConY{ height:60px; border-bottom:1px dotted #ccc;}
+.leftConY h2{font-family:"微软雅黑"; font-size:18px; font-weight:normal;line-height:60px;margin-left:38px;}
+.contectBox{ overflow:hidden;}
+.contectBox img{ float:right;}
+.leftConBox{ float:left; margin:20px 0 20px 38px;}
+.leftConBox p{ line-height:48px;}
+.rightCon{ float:right; width:238px;}
+.conRTop{ background-color:#dc9e62;}
+.conRTopBody{ width:218px; background-color:#f6f2e8; margin:0 auto; background-image:url(/templets/default/images/conTopic.png); background-repeat:no-repeat; background-position:right bottom;}
+.conRTopBody img{ padding-top:20px; border-bottom:1px dotted #ccc}
+.conRTopBody ul{ padding-bottom:60px;}
+.conRTopBody li{ height:53px; border-bottom:1px dotted #ccc;}
+.conRTopBody li a{ font-family:"楷体"; font-weight:bold; font-size:20px; line-height:53px; margin-left:50px;}
+.conRBotm{ border:1px solid #ccc; margin-top:20px;}
+.conRBotm h1{ font-family:"微软雅黑"; font-size:18px; text-align:center; line-height:30px;}
+.conRBotm ul{ margin:20px 0 10px 15px;}
+.conRBotm li{ line-height:30px;}
+
+.leftGCsub{ margin-top:20px;}
+.leftGCsubLine{ overflow:hidden; margin-bottom:20px;}
+.leftGCsubLine img{ display:block; float:left; border:1px solid #ccc; width:216px; height:141px;}
+.GCText{ float:left; width:470px; margin-left:30px;}
+.GCText h1{ font-size:20px; font-weight:normal;}
+.GCText h2{ font-size:16px; font-weight:normal; line-height:30px;}
+.GCText p{line-height:24px;}
+.fanye{ float:right;}
+.IntroText{ width:700px; margin:20px auto;}
+.IntroText h1{ font-family:"微软雅黑"; font-size:20px; font-weight:normal; line-height:40px;}
+.IntroText p{line-height:26px; text-indent:2em;}
+
+.IntroPic{ display:block; margin:0 auto;}
+.yejiBox{ margin-top:20px;}
+.yejiLine{ overflow:hidden; margin-bottom:20px;}
+.yejiLine .yejiText{ float:right; width:500px;}
+.yejiLine img{ float:left; display:block; width:190px; height:117px;}
+.yejiText h1{ font-family:"微软雅黑"; font-size:20px; font-weight:normal;}
+.yejiBox h2{ font-family:"微软雅黑"; font-size:20px; font-weight:normal; text-align:center;}
+.yejiBox p{ line-height:24px; text-indent:2em;}
+
+
+.yejiText p{ line-height:24px; margin-top:10px;}
+.newsCon{ margin:20px 0 20px 0;}
+.newsCon li{ height:35px; border:1px solid #ccc; border-left:none; border-right:none; padding:0 20px; background-image:url(/templets/default/images/redDot.png); background-repeat:no-repeat; background-position:left center; margin-bottom:20px;}
+.newsCon li a{ line-height:35px}
+.newsCon li a span{ float:right;}
+.subNewsbox{ margin-top:30px;}
+.subNewsbox h1{ font-family:"微软雅黑"; font-size:20px; text-align:center; line-height:40px; font-weight:normal;}
+.subNewsbox h2{ font-family:"微软雅黑"; font-size:12px; text-align:center; font-weight:normal;}
+.subNewsbox p{ line-height:24px; text-indent:2em; margin-top:10px;}
+.botmLink{ margin-top:30px;}
+.botmLink h3{ font-family:"微软雅黑"; font-size:14px; font-weight:normal; margin-bottom:15px}
+.subGCBox{ margin-top:20px;}
+.firstGC{ overflow:hidden; width:660px; margin:0 auto;}
+.firstGC img{ float:left; display:block; border:1px solid #ccc;}
+.firstRightText{ float:right; width:400px;}
+.firstRightText h1{ line-height:40px; border-top:1px dotted #ccc; border-bottom:1px dotted #ccc;font-family:"微软雅黑"; font-size:20px; font-weight:normal;}
+.firstRightText h2{ line-height:30px; font-weight:normal;font-family:"微软雅黑"; font-size:16px;}
+.firstRightText ul li{ background-image:url(/templets/default/images/GCdot.png); background-repeat:no-repeat; background-position:left 6px; padding-left:20px; line-height:24px;}
+.secondGC{ margin-top:40px;}
+.secondGCTitle{ background-image:url(/templets/default/images/GCbg.png); background-repeat:no-repeat; margin-bottom:30px;}
+.secondGCTitle h1{ line-height:45px; font-family:"楷体"; color:white; font-weight:normal; font-size:22px; margin-left:30px;}
+.secondGC p{ line-height:24px; text-indent:2em;}
+
+

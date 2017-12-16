@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<link href="/templets/default/images/indexstyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<!--top--> 
+{dede:include filename="head.htm"/} 
+
+<!--endtop-->
+<div class="subBanner"></div>
+<div class="contain">
+  <div class="Container">
+    <div class="leftCon">
+      <div class="leftConTitle"> <img src="/templets/default/images/decoPic.jpg">
+        <p>当前位置：{dede:field name='typename'/}</p>
+      </div>
+      <div class="leftGCsub"> {dede:list pagesize='4'}
+        <div class="leftGCsubLine"><a href="[field:arcurl/]"> <img src="[field:picname/]" width="218" height="143">
+          <div class="GCText">
+            <h1>[field:title/]</h1>
+            <p>[field:description function="cn_substr(@me,300)"/]</p>
+          </div>
+          </a> </div>
+        {/dede:list}
+        <div class="fanye"> {dede:pagelist listitem="index,end,pre,next,pageno"/} </div>
+      </div>
+    </div>
+    <div class="rightCon">
+      <div class="leftGC"> <img src="/templets/default/images/gcTitle.jpg">
+        <dl>
+          <dd>文啸轩宣纸类</dd>
+          <dt><a href="#">西安宣纸</a></dt>
+          <dt><a href="#">西安宣纸</a></dt>
+          <dt><a href="#">西安宣纸</a></dt>
+          <dd>文啸轩宣纸类</dd>
+          <dt><a href="#">西安宣纸</a></dt>
+          <dt><a href="#">西安宣纸</a></dt>
+          <dt><a href="#">西安宣纸</a></dt>
+          <dd>文啸轩宣纸类</dd>
+          <dt><a href="#">西安宣纸</a></dt>
+          <dt><a href="#">西安宣纸</a></dt>
+          <dt><a href="#">西安宣纸</a></dt>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="nav">
+  <div class="navBox"> <a href="index.html">文啸轩首页</a> <a href="xuanzhi.html">西安宣纸</a> <a href="maobi.html">西安毛笔</a> <a href="sibao.html">文房四宝</a> <a href="introduction.html">文啸轩简介</a> <a href="news.html">新闻动态</a> <a href="yeji.html">文化起源</a> <a href="contact.html">联系我们</a> </div>
+</div>
+<div class="botmBox"> <img class="logo" src="/templets/default/images/botmLogo.jpg">
+  <div class="botmText">
+    <h2>版权所有：西安文啸轩文化用品有限公司！</h2>
+    <div class="lineList">
+      <p>联系电话：029-872886640</p>
+      <p>传真：029-87286640</p>
+    </div>
+    <div class="lineList">
+      <p>地址：西安市碑林区卧龙小区1层</p>
+      <p>邮箱：1596952620@.qq.com</p>
+    </div>
+    <h2>技术支持：<a href="#">企商网络</a></h2>
+  </div>
+</div>
+</body>
+</html>
